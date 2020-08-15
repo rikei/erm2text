@@ -31,7 +31,7 @@ jar -jar erm2text-1.0-SNAPSHOT-jar-with-dependencies.jar example.erm  example.tx
 
 ![命令形式执行erm2text](https://img.zaqla.com/2020/08/15/8b5691e2ed441.png)
 
-### Beyond插件
+### BeyondCompare插件
 
 打开BeyondCompare软件，点击 工具->导入设置， 选择对应的BCFormat_win.bcpkg或者BCFormat_mac.bcpkg文件，然后下一步，下一步，完成
 
@@ -54,6 +54,8 @@ mvn package assembly:single
 ## ![BCompare使用erm2text效果](https://img.zaqla.com/2020/08/15/2b6513c3154f5.png)
 
 
+
+![](https://img.zaqla.com/2020/08/15/9e7298fa917b4.png)
 
 ## 其他
 
