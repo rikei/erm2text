@@ -1,3 +1,13 @@
+---
+title: erm2text-ermaster文件可视化比对工具
+date: 2020-09-04 20:35:09
+tags: 小工具
+---
+
+![BCompare使用erm2text效果](https://cdn.ruo-shui.cn/2020/2bdd7bd4a6e254eff47549593c04e590.png)
+
+
+
 ## 为什么做这个工具
 
 *.erm文件可以通过ermaster插件进行修改和查看，其本质是一个xml文件。
@@ -29,13 +39,13 @@ jar -jar erm2text-1.0-SNAPSHOT-jar-with-dependencies.jar example.erm  example.tx
 
 `example.txt`即为转换后的文件
 
-![命令形式执行erm2text](https://img.zaqla.com/2020/08/15/8b5691e2ed441.png)
+![命令形式执行erm2text](https://cdn.ruo-shui.cn/2020/4a982288d52d239d5da60426b6f587ac.png)
 
 ### BeyondCompare插件
 
 打开BeyondCompare软件，点击 工具->导入设置， 选择对应的BCFormat_win.bcpkg或者BCFormat_mac.bcpkg文件，然后下一步，下一步，完成
 
-![截屏2020-08-15 10.23.52](https://img.zaqla.com/2020/08/15/6e017a4668dab.png)
+![image-20200904204055792](https://cdn.ruo-shui.cn/2020/b2235395949d8720ffa4c4711aa1b2fb.png)
 
 
 
@@ -48,20 +58,16 @@ mvn package assembly:single
 ```
 
 
-
 ## 使用效果展示
 
-## ![BCompare使用erm2text效果](https://img.zaqla.com/2020/08/15/2b6513c3154f5.png)
+![BCompare使用erm2text效果](https://cdn.ruo-shui.cn/2020/2bdd7bd4a6e254eff47549593c04e590.png)
 
-
-
-![](https://img.zaqla.com/2020/08/15/9e7298fa917b4.png)
 
 ## 其他
 
 ### 测试环境
 
-操作系统 Mac 10.15.6
+操作系统 Mac 10.15.6 /Win10
 
 Jdk1.8
 
